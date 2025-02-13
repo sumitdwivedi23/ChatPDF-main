@@ -1,12 +1,12 @@
 version: "3.8"
 
 services:
-  app:
+  your_service_name:
     build: .
+    environment:
+      - OPENAI_API_KEY=your_openai_api_key_here
     ports:
       - "8501:8501"
     volumes:
       - .:/app
-    environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}  # Load API key from .env file
     restart: unless-stopped

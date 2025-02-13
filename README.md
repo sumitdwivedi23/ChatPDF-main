@@ -31,7 +31,7 @@ To use the PDF Intelligence System:
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/sumitdwivedi/ChatPDF.git
+   git clone https://github.com/sumitdwivedi/rag_PDF.git
    ```
 
 2. Install dependencies.
@@ -49,8 +49,9 @@ To use the PDF Intelligence System:
 
 ## Future Enhancement
 
-Need to implement
-
+Need to implement databases for storing the documents and creating knowledge graph, Now this rag has functionality of reading PDF file we can extend it to doc, html etc.
+List of previous ocnversations could be added for better user interactions
+We can create API Endpoints using Flask, FastAPi or express.js instead of streamlit application interface
 
 ## License
 

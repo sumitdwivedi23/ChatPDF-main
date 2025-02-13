@@ -1,7 +1,7 @@
 # RAG for PDF query
 
 
-https://github.com/ArmaanSeth/ChatPDF/assets/99117431/2500f636-c66d-46ad-bb68-1d55f04ce753
+
 
 
 ## Retrieval Augmented Generation (RAG)

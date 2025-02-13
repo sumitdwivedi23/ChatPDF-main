@@ -1,7 +1,7 @@
 # RAG for PDF query
 
 
-
+Task
 
 
 ## Retrieval Augmented Generation (RAG)

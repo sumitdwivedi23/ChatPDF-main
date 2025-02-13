@@ -1,7 +1,6 @@
 # RAG for PDF query
 
 
-Task
 
 
 ## Retrieval Augmented Generation (RAG)
@@ -39,13 +38,19 @@ To use the PDF Intelligence System:
    ```bash
    pip install -r requirements.txt
    ```
+3. Create .env file and add key OPENAI_API_KEY="" and add openai api key
 
-3. Run the application.
+4. Run the application.
    ```bash
    streamlit run app.py
    ```
 
-4. Open your browser and navigate to `http://localhost:8000` to access the user interface.
+5. Open your browser and navigate to `http://localhost:8000` to access the user interface.
+
+## Future Enhancement
+
+Need to implement
+
 
 ## License
 

@@ -8,8 +8,10 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
-from htmlTemplates import css, bot_template, user_template
-
+from htmltemp import css, bot_template, user_template
+import uuid
+# from sqlalchemy.orm import Session
+# from db import SessionLocal, Document
 # Creating custom template to guide LLM model
 custom_template = """Given the following conversation and a follow-up question, rephrase the follow-up question to be a standalone question, in its original language.
 Chat History:
@@ -100,3 +102,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

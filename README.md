@@ -18,11 +18,7 @@ RAG is a method designed to address knowledge-intensive tasks, particularly in i
 4. **Text Generation with GPT-3.5 Turbo**: The embedded input is fed to the GPT-3.5 Turbo model from the OpenAI API, which produces the final output.
 5. **User Interface**: Streamlit is used to create the interface for the application.
 
-### Benefits
 
-- **Adaptability**: RAG adapts to situations where facts may evolve over time, making it suitable for dynamic knowledge domains.
-- **Efficiency**: By combining retrieval and generation, RAG provides access to the latest information without the need for extensive model retraining.
-- **Reliability**: The methodology ensures reliable outputs by leveraging both retrieval-based and generative approaches.
 
 ## Project Features
 
@@ -36,7 +32,7 @@ To use the PDF Intelligence System:
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/ArmaanSeth/ChatPDF.git
+   git clone https://github.com/sumitdwivedi/ChatPDF.git
    ```
 
 2. Install dependencies.
@@ -50,10 +46,6 @@ To use the PDF Intelligence System:
    ```
 
 4. Open your browser and navigate to `http://localhost:8000` to access the user interface.
-
-## Contributing
-
-We welcome contributions to enhance the PDF Intelligence System. If you're interested in contributing, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
 
